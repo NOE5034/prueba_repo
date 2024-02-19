@@ -1,0 +1,184 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+    <style>
+        
+        body{
+            background-color:black;
+        }
+
+       
+        .carousel-control-prev, .carousel-control-next {
+            background-color: black;
+        }
+
+        #carouselExample {
+            width:100%;
+            height:500px;
+            margin-top: 5%;
+            
+        }
+
+        img {
+            width: 100%;
+            height: 500px;
+        }
+
+        .card-1, .card-2, .card-3 {
+            width: auto;
+            margin-top: 10px;            
+            text-align: center;
+        }
+
+       .tittle{
+           
+           text-decoration:none;
+            color:white;
+        }
+
+        
+
+        .card-1 {
+            background-image: url(Nike_1.webp);
+            width:100%;
+            height:500px;
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+
+
+
+        .card-2 {
+            background-image: url(Adidas_1.webp);
+            width:100%;
+            height:500px;
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+
+        .card-3 {
+            background-image: url(Puma.webp);
+            width:100%;
+            height:500px;
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+
+        footer {
+            margin-top: 20px;
+            .form-control
+        }
+
+      
+    .Logo{
+        width:30px;
+        height:30px;
+    }
+
+
+
+
+
+
+
+    </style>
+</head>
+<body>
+    <!--Empezaremos con una opcion para el encabezado-->
+    <!--Colocamos un contenedor donde colocaremos los demas elementos tmabien-->
+    <div class="container-fluid">
+
+        <!--El siguiente codigo seria para colocar un encabezado-->
+        <nav class="navbar navbar-expand-lg bg-body-tertiary">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="#"></a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav">
+
+
+
+                        <li class="nav-item">
+                            <a class="navbar-brand" href="">
+                                <img class="Logo" src="Logo.png">
+                            </a>
+                        </li>
+
+                        <li>
+                            <a class="nav-link active" aria-current="page" href="#" style="margin-left:5px;">EXTREME SPORT</a>
+                        </li>
+
+                       
+
+
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Camisetas deportivas</a>
+                        </li>
+
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Articulos de ejercicio</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link disabled" aria-disabled="true">Zapatos deportivos</a>
+                        </li>
+
+
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        <div id="carouselExample" class="carousel slide">
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img class="fto1" src="Publicidad1.jpg">
+                </div>
+                <div class="carousel-item">
+                    <img class="fto1" src="Publicidad2.jpg">
+                </div>
+                <div class="carousel-item">
+                    <img class="fto1" src="Publicidad3.webp">
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+
+        <!--Colocaremos las secciones donde iran las diferenres cateogrias de la tienda-->
+        <!--Colocamos el contenedor principal para la seccion caterogias-->
+        <div class="container-fluid">
+            <div class="card-1">
+                <a class="tittle" href="PAGINA_CAMISA.html"><h2>Camisas Deportivas</h2></a>
+            </div>
+            <div class="card-2">
+                <a class="tittle" href="PAGINA 2.html"><h2>Zapatos Deportivos</h2></a>
+            </div>
+            <div class="card-3">
+                <a class="tittle" href="PAGINA_ARTICULO.html"><h2>Articulos Deportivos</h2></a>
+            </div>
+        </div>
+    </div>
+
+    <footer class="py-5 text-center text-body-secondary bg-body-tertiary">
+        <p>Todos los derechos reservados by <a>Extreme sport©</a>.</p>
+        <p class="mb-0">
+            <a href="#"></a>
+        </p>
+    </footer>
+
+    
+
+
+</body>
+</html>
